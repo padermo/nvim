@@ -22,3 +22,5 @@ kanagawa.setup({
 	overrides = {},
 	theme = "default", -- Load "default" theme or the experimental "light" theme
 })
+
+require("kanagawa").load("dragon")
