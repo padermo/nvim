@@ -18,7 +18,7 @@ end
 -- <leader> = the space key
 
 -- Emmet
-map("i", "<C-y>,", "emmet#expandAbbr(<C-y>,)")
+map("i", "<C-y>,", '<Cmd>call emmet#expandAbbr(0,"")<CR>')
 
 -- Save
 map("n", "<leader>w", "<CMD>update<CR>")
