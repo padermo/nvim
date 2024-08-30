@@ -52,17 +52,14 @@ nvim init.lua
 ## Instalación de Nerdfont
 Las nerdfont son fuentes especializadas que integran una amplia gama de íconos directamente en la tipografía, el uso de este tipo de fuentes es para el plugin *nvim-tree/nvim-web-devicons* y poder tener iconos de los archivos dentro del editor.
 
-1. Descargar Nerdfont
-Ir a la página [Nerd Fonts](https://www.nerdfonts.com/font-downloads) en la cual podras encontrar y descargar la fuente que gustes.
+1. Descargar Nerdfont: ir a la página [Nerd Fonts](https://www.nerdfonts.com/font-downloads) en la cual podras encontrar y descargar la fuente que gustes.
 
-2. Estraer fuentes del archivo .zip en Downloads
-Vamos a crear una carpeta llamada fonts sobre la cual vamos a extraer el archivo .zip
+2. Estraer fuentes del archivo .zip en Downloads: vamos a crear una carpeta llamada fonts sobre la cual vamos a extraer el archivo .zip
 ```bash
 mkdir fonts/ && unzip nerd_font.zip -d fonts/
 ```
 
-3. Agregar fuentes .ttf al sistema
-Antes de agregar las fuentes en el sistema verificar si contamos con la carpeta fonts en la siguiente ruta
+3. Agregar fuentes .ttf al sistema: antes de agregar las fuentes en el sistema verificar si contamos con la carpeta fonts en la siguiente ruta
 ```bash
 ls ~/.local/share
 
@@ -78,8 +75,7 @@ mv ~/Downloads/fonts/*.ttf ~/.local/share/fonts/
 fc-cache -fv
 ```
 
-5. Agregar fuente en la terminal
-Dependiendo del emulador de terminal que emplees puede cambiar la configuración pero un panorama general es en la siguiente ruta
+5. Agregar fuente en la terminal: dependiendo del emulador de terminal que emplees puede cambiar la configuración pero un panorama general es en la siguiente ruta
 ```bash
 # Estando en la terminal
 Edit -> Profile Preferences -> General -> Fonts
